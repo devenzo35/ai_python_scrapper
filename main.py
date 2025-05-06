@@ -11,5 +11,6 @@ if st.button("Scrape"):
         
         data = scrape_website(url)
         print(data)
+       
     else:
         st.error("Please enter a valid URL.")
